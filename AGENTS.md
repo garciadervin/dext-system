@@ -16,7 +16,7 @@
 - ✅ Ask before destructive actions.
 
 ## Principles
-- **SDD**: `docs/specs/project-spec.md` immutable. Minor changes → `docs/specs/changes.md`.
+- **SDD**: `docs/specs/project-spec.md` Technical Specification. Product Backlog → `docs/specs/project-todo.md`.
 - **TDD**: Tests first, but developer can add improvements not covered.
 - **Memory**: Single `docs/memory/session.md` for handoffs. `docs/memory/learnings.md` only for discoveries.
 - **Efficiency**: Read only necessary files. Use `glob`/`grep`.

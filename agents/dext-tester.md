@@ -13,7 +13,7 @@ Write necessary tests for critical paths and edge cases. AAA pattern.
 2. Check existing tests – add missing only.
 3. Write tests for happy paths, edge cases, errors.
 4. Run tests – confirm fail (red).
-5. Append to session.md.
+5. Generate report with list of tests, coverage estimate, missing risks.
 
 ## Quality
 - One behavior per test, descriptive names, independent, deterministic.
