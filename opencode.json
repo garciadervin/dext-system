@@ -1,25 +1,43 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "default_agent": "dext-orchestrator",
   "agent": {
     "dext-orchestrator": {
       "model": "github-copilot/gpt-5.3-codex",
-      "temperature": 0.4,
-      "permission": { "edit": "ask", "bash": "deny" }
+      "temperature": 0.3,
+      "color": "success"
     },
     "dext-tester": {
-      "model": "github-copilot/gpt-5.3-codex",
-      "temperature": 0.2,
-      "permission": { "edit": "ask", "bash": "ask" }
+      "model": "github-copilot/gpt-5.4-mini",
+      "temperature": 0.1,
+      "color": "accent"
     },
     "dext-developer": {
       "model": "github-copilot/gpt-5.3-codex",
-      "temperature": 0.3,
-      "permission": { "edit": "ask", "bash": "ask" }
+      "temperature": 0.2,
+      "color": "accent"
     },
     "dext-reviewer": {
-      "model": "github-copilot/gpt-5.3-codex",
+      "model": "github-copilot/gpt-5.4-mini",
       "temperature": 0.0,
-      "permission": { "edit": "ask", "bash": "deny" }
+      "color": "accent"
     }
-  }
+  },
+  "mcp": {
+    "obsidian": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@bitbonsai/mcpvault@latest",
+        "~/dext-brain"
+      ]
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp/oauth",
+      "enabled": true
+    }
+  },
+  "autoupdate": true
 }
