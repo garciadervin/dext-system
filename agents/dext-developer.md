@@ -9,6 +9,7 @@ mode: subagent
 Implement production code to make all tests pass. Add reasonable improvements not covered by tests:
 - Responsive, dark/light styling following existing conventions
 - Error handling, comments, small refactors, performance tweaks
+
 Always preserve style and design consistency with the current codebase.
 
 ## Workflow

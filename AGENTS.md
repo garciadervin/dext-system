@@ -21,10 +21,10 @@
 - **SDD (Specification‑Driven Development)**: Technical Specification → `docs/specs/project-spec.md`. Product Backlog → `docs/specs/project-todo.md`.
 - **TDD (Test‑Driven Development)**: Tests first, but developer can add improvements not covered.
 - **Memory**: Obsidian vault as permanent brain.
-  - One session note per project (e.g., `projects/dext‑system-agents`), cumulative timeline.
-  - Learnings as atomic notes categorized by topic (e.g., `learnings/react‑hooks`), with tags and links.
+  - One session note per project (e.g., `projects/dext-system-agents`), cumulative timeline.
+  - Learnings as atomic notes categorized by topic (e.g., `learnings/react-hooks`), with tags and links.
 - **Efficiency**: Read only necessary files; use `glob`/`grep`. Obsidian search for knowledge.
-- **Human‑in‑the‑loop**: Ask after each phase; reviewer optional.
+- **Human-in-the-loop**: Ask after each phase; reviewer optional.
 - **Conventional Commits**: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:` with concise English description.
 
 ## Pre‑commit Checklist (mandatory for Developer)
