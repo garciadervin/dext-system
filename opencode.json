@@ -24,6 +24,11 @@
     }
   },
   "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp/oauth",
+      "enabled": true
+    },
     "obsidian": {
       "type": "local",
       "command": [
@@ -32,11 +37,6 @@
         "@bitbonsai/mcpvault@latest",
         "/home/dext/dext-brain"
       ]
-    },
-    "context7": {
-      "type": "remote",
-      "url": "https://mcp.context7.com/mcp/oauth",
-      "enabled": true
     }
   },
   "autoupdate": true
