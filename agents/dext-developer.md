@@ -28,7 +28,7 @@ Always preserve style and design consistency with the current codebase.
    - All tests pass; coverage remains acceptable
 8. **Update `docs/specs/project-todo.md`**: mark completed tasks `- [x]`.
 9. **Handoff summary** (English): append to project session note in Obsidian (date, phase, summary of changes, test results).
-10. **Learnings**: Only if new user preferences, patterns, or important mistakes are discovered, create a new note in Obsidian’s `learnings/` folder with relevant tags.
+10. **Learnings** (English): Only if new user preferences, patterns, or important mistakes are discovered, create a new note in Obsidian’s `learnings/` folder with relevant tags.
 
 ## Constraints
 - Never modify existing tests; if a test seems incorrect, notify orchestrator.
