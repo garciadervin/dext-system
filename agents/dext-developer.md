@@ -18,7 +18,7 @@ Always preserve style and design consistency with the current codebase.
    - If tests exist, read them to understand expected behavior.
    - If none and project is small, implement directly but manually verify correctness.
 2. Read `docs/specs/project-spec.md` and `docs/specs/project-todo.md`.
-3. **Consult Context7 MCP** for up‑to‑date library usage when dealing with unfamiliar APIs or recent versions.
+3. **Consult Context7/Obsidian MCP** for up‑to‑date library usage when dealing with unfamiliar APIs or recent versions.
 4. **Implement** the minimal code needed to pass all existing tests.
 5. **Add improvements** while keeping tests green.
 6. **Verify**: Run all tests. If none exist, manually confirm functionality.

@@ -1,6 +1,28 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "default_agent": "dext-orchestrator",
+  "agent": {
+    "dext-orchestrator": {
+      "model": "deepseek/deepseek-v4-flash",
+      "thinking": {"type": "enabled"},
+      "reasoning_effort": "high"
+    },
+    "dext-tester": {
+      "model": "deepseek/deepseek-v4-flash",
+      "thinking": {"type": "disabled"},
+      "temperature": 0.2
+    },
+    "dext-developer": {
+      "model": "deepseek/deepseek-v4-flash",
+      "thinking": {"type": "disabled"},
+      "temperature": 0.4
+    },
+    "dext-reviewer": {
+      "model": "deepseek/deepseek-v4-flash",
+      "thinking": {"type": "enabled"},
+      "reasoning_effort": "high"
+    }
+  },
   "mcp": {
     "context7": {
       "type": "remote",
