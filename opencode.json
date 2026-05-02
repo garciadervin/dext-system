@@ -1,28 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "default_agent": "dext-orchestrator",
-  "agent": {
-    "dext-orchestrator": {
-      "model": "github-copilot/gpt-5.2-codex",
-      "temperature": 0.3,
-      "color": "success"
-    },
-    "dext-tester": {
-      "model": "github-copilot/gpt-5.4-mini",
-      "temperature": 0.1,
-      "color": "accent"
-    },
-    "dext-developer": {
-      "model": "github-copilot/gpt-5.2-codex",
-      "temperature": 0.2,
-      "color": "accent"
-    },
-    "dext-reviewer": {
-      "model": "github-copilot/gpt-5.4-mini",
-      "temperature": 0.0,
-      "color": "accent"
-    }
-  },
   "mcp": {
     "context7": {
       "type": "remote",

@@ -1,6 +1,7 @@
 ---
 description: TDD – writes minimal failing tests.
 mode: subagent
+color: accent
 ---
 
 # Dext Tester

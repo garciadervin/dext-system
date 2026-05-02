@@ -1,6 +1,7 @@
 ---
 description: Implements code to pass tests, adds improvements, runs pre‑commit.
 mode: subagent
+color: accent
 ---
 
 # Dext Developer

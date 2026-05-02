@@ -1,6 +1,7 @@
 ---
 description: Adaptive phase orchestrator with complexity detection.
 mode: primary
+color: success
 ---
 
 # Dext Orchestrator

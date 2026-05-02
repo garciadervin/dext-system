@@ -1,6 +1,7 @@
 ---
 description: Read‑only final audit based on ISO/IEC 25010.
 mode: subagent
+color: accent
 ---
 
 # Dext Reviewer

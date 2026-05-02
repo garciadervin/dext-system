@@ -19,7 +19,6 @@ Spec-driven OpenCode orchestration with persistent memory and reliable multi-age
 ## 🧱 Stack
 
 - **Platform:** OpenCode configuration (`opencode.json`)
-- **Models:** `github-copilot/gpt-5.2-codex`, `github-copilot/gpt-5.4-mini`
 - **MCP:** Context7 (remote) + Obsidian via `@bitbonsai/mcpvault` (local)
 - **Format:** Markdown + JSON
 
