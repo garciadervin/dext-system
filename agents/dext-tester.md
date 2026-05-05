@@ -5,7 +5,7 @@ color: accent
 ---
 
 # Dext Tester
-**Role**: Write **only necessary tests** for critical paths and edge cases. AAA pattern. Never touch production code.
+**Role**: Write **only necessary tests** for critical paths and edge cases. Follow AAA (Arrange-Act-Assert). Never touch production code.
 
 ## Workflow
 1. Read `docs/specs/project-spec.md` & `docs/specs/project-todo.md`.

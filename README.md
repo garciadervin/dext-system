@@ -2,64 +2,65 @@
 
 ![Dext System Agents Banner](https://drive.google.com/uc?export=view&id=1euU0eJkZIzaxTbDZlRXyuXr4W7TZ-tI8)
 
-![OpenCode](https://img.shields.io/badge/OpenCode-enabled-1f6feb?style=flat&logo=opencollective&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-context7%20%26%20obsidian-7c3aed?style=flat&logo=microsoft&logoColor=white)
+[![OpenCode](https://img.shields.io/badge/OpenCode-enabled-1f6feb?style=flat&logo=opencollective&logoColor=white)](https://opencode.ai)
+[![MCP](https://img.shields.io/badge/MCP-context7%20%26%20obsidian-7c3aed?style=flat&logo=microsoft&logoColor=white)](https://modelcontextprotocol.io)
 
-Spec-driven OpenCode orchestration with persistent memory and reliable multi-agent workflows.
+Spec‑driven OpenCode orchestration with persistent memory and reliable multi‑agent workflows.
 
 ## 🚀 Features
 
-- 🧭 **SDD/TDD workflow**: technical specs, product backlog, and phase‑based handoffs
-- 🧪 **Pre‑commit quality**: linting, type checking, tests, and docs before every commit
-- 🔐 **Security first**: secrets and destructive actions are explicitly blocked or need approval
-- 🧠 **Obsidian memory**: permanent project sessions and cross‑project learnings
-- 🤝 **Multi‑agent roles**: orchestrator, tester, developer, reviewer – each with clear boundaries
-- 🔌 **MCP integrations**: Context7 (real‑time library docs) + Obsidian (local knowledge base)
+- 🧭 **SDD/TDD workflow** – specs, backlog, phase handoffs, and test‑first development  
+- 🧪 **Quality gates** – pre‑commit checklist covering tests, lint, formatting, and documentation  
+- 🔐 **Security rules** – non‑negotiable protection of secrets and destructive actions  
+- 🧠 **Obsidian memory** – project session notes and reusable learnings, fully linked  
+- 🤝 **Multi‑agent roles** – orchestrator, tester, developer, reviewer (ISO/IEC 25010)  
+- 🔌 **MCP integrations** – Context7 (latest library docs) & Obsidian (vault persistence)
 
 ## 🧱 Stack
 
-- **Platform:** OpenCode (`opencode.json`)
-- **Model:** `deepseek/deepseek-v4-flash`
-- **MCP:** Context7 (remote) + Obsidian via `@bitbonsai/mcpvault` (local)
-- **Format:** Markdown + JSON
+| Component   | Detail |
+|-------------|--------|
+| Platform    | [OpenCode](https://opencode.ai) |
+| Model       | `deepseek/deepseek-v4-flash` *(example)* |
+| MCP servers | Context7 (remote) + Obsidian via `@bitbonsai/mcpvault` (local) |
+| Format      | Markdown & JSON |
 
-## 🧪 Local Development
+## 🧪 Quick Install
 
 ```bash
-# 1. Clone the repository to a temporary location
+# 1. Clone the repository
 git clone https://github.com/garciadervin/dext-system.git ~/dext-system
 
-# 2. Copy its contents into your OpenCode configuration folder
-#    (adjust the destination if your OpenCode directory differs)
-cp -r ~/dext-system/. ~/.config/opencode/
+# 2. Merge into your OpenCode configuration folder
+cp -r ~/dext-system/. ~/.config/opencode
 
-# 3. Clean up the temporary clone (optional)
+# 3. Remove the temporary clone (optional)
 rm -rf ~/dext-system
 ```
 
-> **Important:**  
-> - The `opencode.json` file is kept at the repo root; it expects to sit directly inside your OpenCode folder.  
-> - After copying, open `opencode.json` and update the Obsidian vault path to match your local setup.
+> **Note:** Adjust the Obsidian vault path in `opencode.json` to match your local setup.
 
-## 🧭 Workflow
+## 🧭 How It Works
 
-1. The **orchestrator** creates the spec and product backlog, then dispatches phases.
-2. The **tester** writes minimal failing tests based on the spec.
-3. The **developer** implements the code to pass all tests, adds UI polish, and runs the pre‑commit checklist.
-4. The **reviewer** performs a final read‑only audit (on demand) using ISO/IEC 25010.
-5. All technical output is in English; the user‑facing chat uses Venezuelan Spanish.
-6. Every session and important finding is stored in the Obsidian vault for long‑term memory.
+1. **Orchestrator** creates technical spec and backlog, then dispatches phases.  
+2. **Tester** writes failing tests for critical paths (AAA pattern).  
+3. **Developer** implements production code, adds improvements, and runs pre‑commit checks.  
+4. **Reviewer** performs a read‑only audit based on ISO/IEC 25010 (optional, on demand).  
 
-## 🗂️ Structure
+All handoffs and technical artifacts are in **English**; the user‑facing chat stays in **Venezuelan Spanish**.
+
+Sessions and learnings are stored automatically in your Obsidian vault for long‑term continuity.
+
+## 🗂️ Project Structure
 
 ```
 .
-├── agents/
+├── agents/                  # Agents instructions
 │   ├── dext-developer.md
 │   ├── dext-orchestrator.md
 │   ├── dext-reviewer.md
 │   └── dext-tester.md
-├── skills/
+├── skills/                  # Imported skill set
 │   ├── agent-browser/
 │   ├── architecture-patterns/
 │   ├── code-reviewer/
@@ -70,12 +71,12 @@ rm -rf ~/dext-system
 │   ├── vercel-react-best-practices/
 │   ├── vercel-react-native-skills/
 │   └── webapp-testing/
-├── AGENTS.md
+├── AGENTS.md                # Global rules and persona
 ├── README.md
-└── opencode.json
+└── opencode.json            # OpenCode configuration
 ```
 
-> **Note:** This repository is a configuration bundle. Copy its contents into your OpenCode folder to activate the agents.
+> This is a **configuration bundle** – copy the entire contents into your OpenCode folder to activate the system.
 
 ## 📜 License
 

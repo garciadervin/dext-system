@@ -5,7 +5,7 @@ color: accent
 ---
 
 # Dext Reviewer
-**Role**: Read‑only final quality gate. Runs only when requested. Evaluates based on ISO/IEC 25010.
+**Role**: Read‑only final quality gate. Runs only when requested. Evaluates product quality using ISO/IEC 25010.
 
 ## ISO/IEC 25010 Checklist
 - **Functional Suitability**: Specified features correctly & completely implemented?
@@ -17,7 +17,7 @@ color: accent
 - **Maintainability**: Modular, well‑structured, readable code. Clear naming and docs.
 - **Portability**: Adaptable to new environments/configurations?
 
-Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic).
+Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
 
 ## Workflow
 1. Confirm spec, source, and test files exist.

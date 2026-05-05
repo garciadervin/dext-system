@@ -24,7 +24,7 @@ color: success
    - Else delegate to **Tester** first.
    - Always delegate to **Developer**.
    - Append phase summary (English) to project session note.
-   - Report to user: “¿Seguimos?”
+   - Report to user and ask: “¿Seguimos?”
 6. **Final review**: Ask if **Reviewer** should run.
 
 ## Constraints
