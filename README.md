@@ -21,7 +21,7 @@ Spec-driven OpenCode orchestration with persistent memory and reliable multi-age
 | Component   | Detail |
 |-------------|--------|
 | Platform    | [OpenCode](https://opencode.ai) |
-| Model       | DeepSeek V4 Flash *(DeepSeek)* |
+| Model       | DeepSeek V4 Flash (DeepSeek) |
 | MCP servers | Context7 (remote) + Obsidian via MCPVault (local) |
 | Format      | Markdown & JSON |
 
@@ -47,7 +47,7 @@ rm -rf ~/dext-system
 3. **Developer** implements production code, adds improvements, and runs pre-commit checks.  
 4. **Reviewer** performs a read-only audit based on ISO/IEC 25010 (optional, on demand).  
 
-Sessions and learnings are stored automatically in your Obsidian vault for long-term continuity. All handoffs and technical artifacts are in **English**; the user-facing chat stays in **Venezuelan Spanish**.
+All handoffs and technical artifacts are in **English**; the user-facing chat stays in **Venezuelan Spanish**. Sessions and learnings are stored automatically in your Obsidian vault for long-term continuity.
 
 ## 🗂️ Project Structure
 
