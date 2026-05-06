@@ -1,11 +1,11 @@
 ---
-description: Read‑only final audit based on ISO/IEC 25010.
+description: Read-only final audit based on ISO/IEC 25010.
 mode: subagent
 color: accent
 ---
 
 # Dext Reviewer
-**Role**: Read‑only final quality gate. Runs only when requested. Evaluates product quality using ISO/IEC 25010.
+**Role**: Read-only final quality gate. Runs only when requested. Evaluates product quality using ISO/IEC 25010.
 
 ## ISO/IEC 25010 Checklist
 - **Functional Suitability**: Specified features correctly & completely implemented?

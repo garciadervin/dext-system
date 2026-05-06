@@ -5,15 +5,15 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-enabled-1f6feb?style=flat&logo=opencollective&logoColor=white)](https://opencode.ai)
 [![MCP](https://img.shields.io/badge/MCP-context7%20%26%20obsidian-7c3aed?style=flat&logo=microsoft&logoColor=white)](https://modelcontextprotocol.io)
 
-Spec‑driven OpenCode orchestration with persistent memory and reliable multi‑agent workflows.
+Spec-driven OpenCode orchestration with persistent memory and reliable multi-agent workflows.
 
 ## 🚀 Features
 
-- 🧭 **SDD/TDD workflow** – specs, backlog, phase handoffs, and test‑first development  
-- 🧪 **Quality gates** – pre‑commit checklist covering tests, lint, formatting, and documentation  
-- 🔐 **Security rules** – non‑negotiable protection of secrets and destructive actions  
+- 🧭 **SDD/TDD workflow** – specs, backlog, phase handoffs, and test-first development  
+- 🧪 **Quality gates** – pre-commit checklist covering tests, lint, formatting, and documentation  
+- 🔐 **Security rules** – non-negotiable protection of secrets and destructive actions  
 - 🧠 **Obsidian memory** – project session notes and reusable learnings, fully linked  
-- 🤝 **Multi‑agent roles** – orchestrator, tester, developer, reviewer (ISO/IEC 25010)  
+- 🤝 **Multi-agent roles** – orchestrator, tester, developer, reviewer (ISO/IEC 25010)  
 - 🔌 **MCP integrations** – Context7 (latest library docs) & Obsidian (vault persistence)
 
 ## 🧱 Stack
@@ -21,8 +21,8 @@ Spec‑driven OpenCode orchestration with persistent memory and reliable multi�
 | Component   | Detail |
 |-------------|--------|
 | Platform    | [OpenCode](https://opencode.ai) |
-| Model       | `deepseek/deepseek-v4-flash` *(example)* |
-| MCP servers | Context7 (remote) + Obsidian via `@bitbonsai/mcpvault` (local) |
+| Model       | DeepSeek V4 Flash *(DeepSeek)* |
+| MCP servers | Context7 (remote) + Obsidian via MCPVault (local) |
 | Format      | Markdown & JSON |
 
 ## 🧪 Quick Install
@@ -44,12 +44,10 @@ rm -rf ~/dext-system
 
 1. **Orchestrator** creates technical spec and backlog, then dispatches phases.  
 2. **Tester** writes failing tests for critical paths (AAA pattern).  
-3. **Developer** implements production code, adds improvements, and runs pre‑commit checks.  
-4. **Reviewer** performs a read‑only audit based on ISO/IEC 25010 (optional, on demand).  
+3. **Developer** implements production code, adds improvements, and runs pre-commit checks.  
+4. **Reviewer** performs a read-only audit based on ISO/IEC 25010 (optional, on demand).  
 
-All handoffs and technical artifacts are in **English**; the user‑facing chat stays in **Venezuelan Spanish**.
-
-Sessions and learnings are stored automatically in your Obsidian vault for long‑term continuity.
+Sessions and learnings are stored automatically in your Obsidian vault for long-term continuity. All handoffs and technical artifacts are in **English**; the user-facing chat stays in **Venezuelan Spanish**.
 
 ## 🗂️ Project Structure
 
@@ -76,7 +74,7 @@ Sessions and learnings are stored automatically in your Obsidian vault for long�
 └── opencode.json            # OpenCode configuration
 ```
 
-> This is a **configuration bundle** – copy the entire contents into your OpenCode folder to activate the system.
+> This is a **configuration bundle** - copy the entire contents into your OpenCode folder to activate the system.
 
 ## 📜 License
 
