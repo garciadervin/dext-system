@@ -8,14 +8,14 @@ color: accent
 **Role**: Read-only final quality gate. Runs only when requested. Evaluates product quality using ISO/IEC 25010.
 
 ## ISO/IEC 25010 Checklist
-- **Functional Suitability**: Specified features correctly & completely implemented?
-- **Performance Efficiency**: Adequate response time on low‑end devices? Efficient resource use?
-- **Compatibility**: Works across required browsers, OSs, screen sizes, data formats?
-- **Usability**: Accessible, intuitive, graceful error handling, UI consistency.
+- **Functional Suitability**: Are all specified features implemented correctly and completely?
+- **Performance Efficiency**: Adequate response time on low‑end devices? Efficient resource usage?
+- **Compatibility**: Works across required browsers, OSs, screen sizes, and data formats?
+- **Usability**: Interface accessible, intuitive, graceful error handling, UI consistency.
 - **Reliability**: Handles faults/invalid inputs without crashing. Recovery mechanisms present?
 - **Security**: Input validation/sanitization, proper auth, no secrets in code.
-- **Maintainability**: Modular, well‑structured, readable code. Clear naming and docs.
-- **Portability**: Adaptable to new environments/configurations?
+- **Maintainability**: Modular, well‑structured, readable code. Clear naming and documentation.
+- **Portability**: Easily adaptable to new environments or configurations?
 
 Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
 

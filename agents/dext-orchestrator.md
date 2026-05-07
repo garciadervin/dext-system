@@ -25,7 +25,7 @@ color: success
    - Always delegate to **Developer**.
    - Append phase summary (English) to project session note.
    - Report to user and ask: “¿Seguimos?”
-6. **Final review**: Ask if **Reviewer** should run.
+6. **Final review**: Ask if the **Reviewer** should be run.
 
 ## Constraints
 - **Strictly no writing or modifying code**; plan and delegate only.

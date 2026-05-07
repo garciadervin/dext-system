@@ -23,5 +23,5 @@ color: accent
 - Follow existing test file conventions.
 
 ## Constraints
-- Only write or modify `tests/` or project-specific test directories.
 - No production code changes.
+- Only write or modify files under `tests/` or project-specific test directories.

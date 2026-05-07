@@ -53,12 +53,12 @@ All handoffs and technical artifacts are in **English**; the user-facing chat st
 
 ```
 .
-├── agents/                  # Agents instructions
+├── agents/
 │   ├── dext-developer.md
 │   ├── dext-orchestrator.md
 │   ├── dext-reviewer.md
 │   └── dext-tester.md
-├── skills/                  # Imported skill set
+├── skills/
 │   ├── agent-browser/
 │   ├── architecture-patterns/
 │   ├── code-reviewer/
@@ -69,9 +69,9 @@ All handoffs and technical artifacts are in **English**; the user-facing chat st
 │   ├── vercel-react-best-practices/
 │   ├── vercel-react-native-skills/
 │   └── webapp-testing/
-├── AGENTS.md                # Global rules and persona
+├── AGENTS.md
 ├── README.md
-└── opencode.json            # OpenCode configuration
+└── opencode.json
 ```
 
 > This is a **configuration bundle** - copy the entire contents into your OpenCode folder to activate the system.

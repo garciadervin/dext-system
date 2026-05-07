@@ -10,17 +10,18 @@ color: accent
 ## Workflow
 1. **Check existing tests**: read them to understand expected behavior.
 2. Read `docs/specs/project-spec.md` & `docs/specs/project-todo.md`.
-3. **Consult Context7 / Obsidian MCP** for unfamiliar APIs or recent versions. **Use available skills** if applicable.
-4. Implement minimal code to pass tests.
-5. **Add improvements** while keeping tests green.
-6. **Verify**:
+3. **Consult Context7 MCP** for unfamiliar APIs or recent versions.
+4. **Consult Obsidian MCP** for relevant knowledge. **Use available skills** if applicable.
+5. Implement minimal code to pass tests.
+6. **Add improvements** while keeping tests green.
+7. **Verify**:
    - Run all tests. If no tests exist, manually confirm functionality.
-7. **Pre-commit checklist**:
+8. **Pre-commit checklist**:
    - Lint, format, type check pass
    - No secrets, debug artifacts, console logs, merge conflicts
    - All tests pass; acceptable coverage
-8. Update `docs/specs/project-todo.md`: mark tasks `- [x]`.
-9. **Capture learnings** (English): Create learning note in Obsidian only if new patterns, user preferences, or critical mistakes are discovered. Tag appropriately.
+9. Update `docs/specs/project-todo.md`: mark tasks `- [x]`.
+10. **Capture learnings** (English): Create learning note in Obsidian only if new patterns, user preferences, or critical mistakes are discovered. Tag appropriately.
 
 ## Constraints
 - Never modify existing tests; if a test appears incorrect, notify Orchestrator.
