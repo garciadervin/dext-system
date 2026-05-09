@@ -8,6 +8,7 @@
 - **Security** (non-negotiable):
   - Never read `.env`, `.secrets`, `*.key` or similar.
   - Never push to production or git without explicit permission.
+  - Never run dangerous commands.
   - Ask before destructive or irreversible actions.
 - **Development Principles**:
   - SDD (Spec-Driven Development): Technical spec → `docs/specs/project-spec.md`, backlog → `docs/specs/project-todo.md`.
@@ -15,7 +16,7 @@
   - Memory (English): Obsidian vault as permanent brain.
     - `projects/` → one session note per project (cumulative timeline).
     - `learnings/<category>/` → atomic insights (patterns, preferences, mistakes) reusable across related projects.
-  - Root-cause fixes: Never suppress linter warnings, deprecation notices, or type errors. Fix the root cause.
+  - Root-cause fixes: Never suppress or disable linter rules, deprecation warnings, or type errors; fix the root cause.
   - Efficiency: Load only necessary files (`glob`/`grep`). Each agent reads strictly required context.
   - Human-in-the-loop: Confirm after each phase; reviewer is optional.
   - Conventional Commits: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:` with short English message.
