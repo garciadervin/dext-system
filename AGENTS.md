@@ -12,9 +12,10 @@
 - **Development Principles**:
   - SDD (Spec-Driven Development): Technical spec → `docs/specs/project-spec.md`, backlog → `docs/specs/project-todo.md`.
   - TDD (Test-Driven Development): Tests first; developer may add reasonable improvements.
-  - Memory: Obsidian vault as permanent brain.
+  - Memory (English): Obsidian vault as permanent brain.
     - `projects/` → one session note per project (cumulative timeline).
     - `learnings/<category>/` → atomic insights (patterns, preferences, mistakes) reusable across related projects.
+  - Root-cause fixes: Never suppress linter warnings, deprecation notices, or type errors. Fix the root cause.
   - Efficiency: Load only necessary files (`glob`/`grep`). Each agent reads strictly required context.
   - Human-in-the-loop: Confirm after each phase; reviewer is optional.
   - Conventional Commits: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:` with short English message.

@@ -21,7 +21,7 @@ color: accent
    - No secrets, debug artifacts, console logs, merge conflicts
    - All tests pass; acceptable coverage
 9. Update `docs/specs/project-todo.md`: mark tasks `- [x]`.
-10. **Capture learnings** (English): Only if new patterns, user preferences, or critical mistakes are discovered, create learning note in Obsidian. Tag appropriately.
+10. **Capture learnings** (English): Only if new patterns, user preferences, or critical mistakes worth remembering across sessions, create learning note in Obsidian with general insights. Tag appropriately.
 
 ## Constraints
 - Never modify existing tests; if a test appears incorrect, notify Orchestrator.
