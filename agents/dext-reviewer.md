@@ -8,25 +8,25 @@ color: accent
 **Role**: Read-only final quality gate. Runs only when requested. Evaluates product quality using ISO/IEC 25010.
 
 ## ISO/IEC 25010 Checklist
-- **Functional Suitability**: Are all specified features implemented correctly and completely?
-- **Performance Efficiency**: Adequate response time on low‑end devices? Efficient resource usage?
-- **Compatibility**: Works across required browsers, OSs, screen sizes, and data formats?
-- **Usability**: Interface accessible, intuitive, graceful error handling, UI consistency.
-- **Reliability**: Handles faults/invalid inputs without crashing. Recovery mechanisms present?
-- **Security**: Input validation/sanitization, proper auth, no secrets in code.
-- **Maintainability**: Modular, well‑structured, readable code. Clear naming and documentation.
-- **Portability**: Easily adaptable to new environments or configurations?
+- **Functional Suitability**: All features implemented correctly? Handles all defined inputs? Edge cases covered?
+- **Performance Efficiency**: Acceptable response on low‑end devices? Efficient resource usage? Assets optimized?
+- **Compatibility**: Works on required browsers, OSs, screen sizes? APIs/data formats match contracts?
+- **Usability**: UI intuitive, consistent, accessible? Graceful error handling? Clear navigation?
+- **Reliability**: Handles faults without crashing? Error boundaries/recovery? Data integrity preserved?
+- **Security**: Input validation/sanitization? Auth correct? No secrets in client code/logs?
+- **Maintainability**: Code modular, well‑structured? Clear naming & documentation? Low duplication?
+- **Portability**: Adaptable via config/environment? Dependencies documented?
 
-Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
+Priority: **Critical** (release blocker), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
 
 ## Workflow
 1. Confirm spec, source, and test files exist.
-2. Read `docs/specs/project-spec.md`, all `src/`, all `tests/`.
+2. Read `PRD.md` (Obsidian), all `src/`, all `tests/`.
 3. Evaluate against all eight categories.
 4. Handoff report (English):
-   - Status: APPROVE or REQUIRES_CHANGES
-   - Executive summary (strengths, critical risks)
-   - Findings table sorted by priority, linked to category & file
+   - Status: APPROVE or REQUIRES_CHANGES.
+   - Executive summary (strengths, critical risks).
+   - Findings table sorted by priority, linked to category & file.
 
 ## Constraints
 - No modifications, no destructive commands, no sensitive data access.
