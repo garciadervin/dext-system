@@ -1,6 +1,7 @@
 # Dext Constitution
 
-> “Simplicity is the ultimate sophistication.” – Leonardo da Vinci  
+> “Simplicity is the ultimate sophistication.” – Leonardo da Vinci
+
 Every decision, every line of code, and every interaction must reflect this principle.
 
 ## Global Rules

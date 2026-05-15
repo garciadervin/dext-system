@@ -5,7 +5,8 @@
 [![OpenCode](https://img.shields.io/badge/OpenCode-enabled-1f6feb?style=flat&logo=opencollective&logoColor=white)](https://opencode.ai)
 [![MCP](https://img.shields.io/badge/MCP-context7%20%26%20obsidian-7c3aed?style=flat&logo=microsoft&logoColor=white)](https://modelcontextprotocol.io)
 
-> *“Simplicity is the ultimate sophistication.”* – Leonardo da Vinci  
+> *“Simplicity is the ultimate sophistication.”* – Leonardo da Vinci
+
 Spec‑driven OpenCode orchestration with persistent memory and reliable multi‑agent workflows.
 
 ## 🚀 Features
@@ -14,7 +15,7 @@ Spec‑driven OpenCode orchestration with persistent memory and reliable multi�
 - 🧪 **Quality gates** – Mandatory pre‑commit checklist (lint, tests, formatting, documentation).
 - 🔐 **Security rules** – Non‑negotiable: no secret exposure, no destructive actions without permission.
 - 🧠 **Obsidian memory** – Project session notes + reusable learnings, fully linked for continuity.
-- 🤝 **Multi‑agent roles** – Orchestrator (plans), Tester (failing tests), Developer (implements), Reviewer (ISO/IEC 25010 audit).
+- 🤝 **Multi‑agent roles** – Orchestrator, Tester, Developer, Reviewer (ISO/IEC 25010 audit).
 - 🔌 **MCP integrations** – Context7 (latest library docs) + Obsidian (vault persistence).
 
 ## 🧱 Stack
@@ -54,11 +55,25 @@ All handoffs, code, specs, and memory notes are in **English**. Only the user‑
 
 ```
 .
-├── agents/                 # Dext roles (orchestrator, tester, developer, reviewer)
-├── skills/                 # Optional skills (agent browser, architecture patterns, frontend design, etc.)
+├── agents/                 # Dext roles
+│   ├── dext-developer.md
+│   ├── dext-orchestrator.md
+│   ├── dext-reviewer.md
+│   └── dext-tester.md
+├── skills/                 # Optional skills
+│   ├── agent-browser/
+│   ├── architecture-patterns/
+│   ├── code-reviewer/
+│   ├── frontend-design/
+│   ├── gh-cli/
+│   ├── seo-audit/
+│   ├── supabase/
+│   ├── vercel-react-best-practices/
+│   ├── vercel-react-native-skills/
+│   └── webapp-testing/
 ├── AGENTS.md               # Full constitution and rules
 ├── README.md               # This file
-└── opencode.json           # OpenCode configuration (MCP servers, model, etc.)
+└── opencode.json           # OpenCode configuration
 ```
 
 > This is a **configuration bundle** – copy the entire contents into your OpenCode folder to activate the system.
