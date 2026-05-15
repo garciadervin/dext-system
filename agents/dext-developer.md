@@ -22,7 +22,8 @@ color: accent
 7. **Verify**: run full test suite.
 8. **Pre-commit checklist** – confirm all items.
 9. Update `tasks.md` in Obsidian – mark completed tasks as `- [x]`.
-10. **Capture learnings** (English) if new patterns, user preferences, or critical mistakes are discovered. Create Obsidian learning note in `learnings/<category>/<slug>.md` with YAML front matter (`tags`, `date`, `context`) and concise insight body.
+10. **Capture learnings** (English) if new patterns, user preferences, or critical mistakes are discovered.  
+    Create Obsidian learning note in `learnings/<category>/<slug>.md` with YAML front matter (`tags`, `date`, `context`) and concise insight body.
 11. **Handoff** (English):
     - Files changed.
     - Test status & coverage.

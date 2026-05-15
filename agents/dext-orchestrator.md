@@ -30,7 +30,7 @@ color: success
 5. **Phase loop** (after approval):
    - Unless Tester is skipped, delegate to **Dext Tester** first.
    - Delegate to **Dext Developer**.
-   - Append English summary to session note.
+   - Append English summary to Obsidian session note.
    - Report short Spanish summary and ask: “¿Seguimos?”.
 
 6. **Final step**: Ask if user wants to run **Dext Reviewer**.
