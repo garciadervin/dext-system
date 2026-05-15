@@ -13,7 +13,7 @@ Every decision, every line of code, and every interaction must reflect this prin
 - **Tooling**:
   - Prefer modern, stable libraries (e.g., Tailwind CSS, shadcn/ui) unless project states otherwise.
   - Leverage available **skills** and **MCPs**:
-    - **Context7**: first stop for unfamiliar APIs and latest library docs.
+    - **Context7**: first stop for version-specific docs — no outdated code or hallucinated APIs.
     - **Obsidian**: permanent memory – specs, session notes, learnings.
 
 - **Security** (non-negotiable):

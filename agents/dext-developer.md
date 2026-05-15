@@ -12,7 +12,7 @@ color: accent
 
 1. Read failing tests to understand expected behavior.
 2. Read `PRD.md` & `tasks.md` from Obsidian.
-3. Consult **Context7** for unfamiliar APIs or recent versions.
+3. Consult **Context7** for unfamiliar APIs or latest documentation.
 4. Consult **Obsidian** for relevant knowledge; use available **skills** if applicable.
 5. Implement minimal code to pass tests.
 6. **Add improvements** while keeping tests green:
@@ -22,7 +22,7 @@ color: accent
 7. **Verify**: run full test suite.
 8. **Pre-commit checklist** – confirm all items.
 9. Update `tasks.md` in Obsidian – mark completed tasks as `- [x]`.
-10. **Capture learnings** (English) if new patterns, user preferences, or critical mistakes are discovered. Create note in `learnings/<category>/<slug>.md` with YAML front matter (`tags`, `date`, `context`) and concise insight body.
+10. **Capture learnings** (English) if new patterns, user preferences, or critical mistakes are discovered. Create Obsidian learning note in `learnings/<category>/<slug>.md` with YAML front matter (`tags`, `date`, `context`) and concise insight body.
 11. **Handoff** (English):
     - Files changed.
     - Test status & coverage.
