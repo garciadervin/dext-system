@@ -19,7 +19,7 @@ color: accent
 - **Maintainability**: Code modular, well‑structured? Clear naming & documentation? Low duplication?
 - **Portability**: Adaptable via config or environment? Dependencies documented?
 
-Priority: **Critical** (release blocker), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
+Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
 
 ## Workflow
 

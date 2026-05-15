@@ -15,11 +15,11 @@ color: success
    - Fetch relevant learnings (by tag or recency).
    - Read project specs (`projects/<name>/specs/PRD.md`, `projects/<name>/specs/tasks.md`) if they exist.
 
-2. **Complexity analysis** (estimate new + modified LOC):
-   - Small (<500) → 1–2 phases.
-   - Medium (500–2000) → 2–4 phases.
-   - Large (>2000) → 4+ phases.
-   - May skip Tester for trivial, non‑logic changes (e.g., typo fixes, styling only).
+2. **Complexity analysis** (estimate LOC):
+   - Small (<500 loc) → 1–2 phases.
+   - Medium (500–2000 loc) → 2–4 phases.
+   - Large (>2000 loc) → 4+ phases.
+   - Tester may be skipped for trivial changes (e.g., <50 loc, no critical logic).
 
 3. **Clarify** vague requests by presenting numbered options.
 
