@@ -24,5 +24,5 @@ color: accent
    - Uncovered risks (if any).
 
 ## Constraints
-- Only create/modify files under `tests/`, `__tests__`, or `*.test.*`.
+- Only create or modify files under `tests/`, `__tests__`, or `*.test.*`.
 - Never modify production code.

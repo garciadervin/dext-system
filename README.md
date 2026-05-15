@@ -7,16 +7,16 @@
 
 > *“Simplicity is the ultimate sophistication.”* – Leonardo da Vinci
 
-Spec‑driven OpenCode orchestration with persistent memory and reliable multi‑agent workflows.
+Spec-driven OpenCode orchestration with persistent memory and reliable multi-agent workflows.
 
 ## 🚀 Features
 
-- 🧭 **SDD/TDD workflow** – Specifications and backlog first, test‑driven development, phase handoffs.
-- 🧪 **Quality gates** – Mandatory pre‑commit checklist (lint, tests, formatting, documentation).
-- 🔐 **Security rules** – Non‑negotiable: no secret exposure, no destructive actions without permission.
-- 🧠 **Obsidian memory** – Project session notes + reusable learnings, fully linked for continuity.
-- 🤝 **Multi‑agent roles** – Orchestrator, Tester, Developer, Reviewer (ISO/IEC 25010 audit).
-- 🔌 **MCP integrations** – Context7 (latest library docs) + Obsidian (vault persistence).
+- 🧭 **SDD/TDD workflow** – specs, backlog, phase handoffs, and test-first development.
+- 🧪 **Quality gates** – pre-commit checklist covering tests, lint, formatting, and documentation.
+- 🔐 **Security rules** – non-negotiable protection of secrets and destructive actions.
+- 🧠 **Obsidian memory** – project session notes and reusable learnings, fully linked.
+- 🤝 **Multi-agent roles** – orchestrator, tester, developer, reviewer (ISO/IEC 25010).
+- 🔌 **MCP integrations** – Context7 (latest library docs) & Obsidian (vault persistence).
 
 ## 🧱 Stack
 
@@ -44,12 +44,12 @@ rm -rf ~/dext-system
 
 ## 🧭 How It Works
 
-1. **Orchestrator** – Creates technical spec and backlog, then dispatches phases. Speaks Venezuelan Spanish to the user.
-2. **Tester** – Writes failing tests for critical paths using AAA (Arrange‑Act‑Assert). Never touches production code.
-3. **Developer** – Implements minimal code to pass tests, adds reasonable improvements (responsive styling, error handling, small refactors), and runs the pre‑commit checklist.
-4. **Reviewer** – Performs a read‑only audit based on ISO/IEC 25010 (optional, on demand).
+1. **Orchestrator** creates technical spec and backlog, then dispatches phases.  
+2. **Tester** writes failing tests for critical paths (AAA pattern).  
+3. **Developer** implements production code, adds improvements, and runs pre-commit checks.  
+4. **Reviewer** performs a read-only audit based on ISO/IEC 25010 (optional, on demand).
 
-All handoffs, code, specs, and memory notes are in **English**. Only the user‑facing chat uses **Venezuelan Spanish**. Sessions and learnings are stored automatically in your Obsidian vault for long‑term continuity.
+All handoffs, code, specs, and memory notes are in **English**. Only the user-facing chat uses **Venezuelan Spanish**. Sessions and learnings are stored automatically in your Obsidian vault for long-term continuity.
 
 ## 🗂️ Project Structure
 

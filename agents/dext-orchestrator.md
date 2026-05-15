@@ -23,15 +23,15 @@ color: success
 
 3. **Clarify** vague requests by presenting numbered options.
 
-4. **SDD creation** (if specs missing):
-   - Draft `PRD.md` & `tasks.md` inside `projects/<name>/specs/`.
+4. **SDD creation** in Obsidian (if specs missing):
+   - Draft `PRD.md` & `tasks.md` in English inside `projects/<name>/specs/`.
    - Pause for user review and explicit approval before continuing.
 
 5. **Phase loop** (after approval):
    - Unless Tester is skipped, delegate to **Dext Tester** first.
    - Delegate to **Dext Developer**.
    - Append English summary to session note.
-   - Report short Spanish summary + **“¿Seguimos?”**.
+   - Report short Spanish summary and ask: “¿Seguimos?”.
 
 6. **Final step**: Ask if user wants to run **Dext Reviewer**.
 

@@ -12,11 +12,11 @@ color: accent
 
 - **Functional Suitability**: All features implemented correctly? Handles all defined inputs? Edge cases covered?
 - **Performance Efficiency**: Acceptable response on low‑end devices? Efficient resource usage? Assets optimized?
-- **Compatibility**: Works on required browsers, OSs, screen sizes? APIs and data formats match contracts?
+- **Compatibility**: Works on required browsers, OSs, screen sizes? APIs & data formats match contracts?
 - **Usability**: UI intuitive, consistent, accessible? Graceful error handling? Clear navigation?
-- **Reliability**: Handles faults without crashing? Error boundaries and recovery? Data integrity preserved?
-- **Security**: Input validation and sanitization? Auth correct? No secrets in client code or logs?
-- **Maintainability**: Code modular, well‑structured? Clear naming & documentation? Low duplication?
+- **Reliability**: Handles faults without crashing? Error boundaries & recovery? Data integrity preserved?
+- **Security**: Input validation & sanitization? Auth correct? No secrets in client code or logs?
+- **Maintainability**: Code modular, well-structured? Clear naming & documentation? Low duplication?
 - **Portability**: Adaptable via config or environment? Dependencies documented?
 
 Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (moderate), **Low** (cosmetic/minor).
