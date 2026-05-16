@@ -10,7 +10,7 @@ color: accent
 
 ## Workflow
 
-1. Read `projects/<name>/specs/` from Obsidian.
+1. Read project specs from Obsidian (`projects/<name>/specs/`).
 2. Explore existing tests (`glob`/`grep`). Identify gaps: happy paths, edge cases, error conditions.
 3. Write tests following project conventions:
    - AAA (Arrange, Act, Assert).

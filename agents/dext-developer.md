@@ -11,7 +11,7 @@ color: accent
 ## Workflow
 
 1. Read failing tests to understand expected behavior.
-2. Read `projects/<name>/specs/` from Obsidian.
+2. Read project specs from Obsidian (`projects/<name>/specs/`).
 3. Consult **Context7** for unfamiliar APIs or latest documentation.
 4. Consult **Obsidian** for relevant learnings. Use available **skills** if applicable.
 5. Implement minimal code to pass tests.
