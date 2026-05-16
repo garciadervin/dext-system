@@ -4,7 +4,7 @@
   "agent": {
     "dext-orchestrator": {
       "model": "deepseek/deepseek-v4-flash",
-      "thinking": {"type": "enabled"},
+      "permission": {"edit": "deny"},
       "reasoning_effort": "high"
     },
     "dext-tester": {
@@ -19,7 +19,7 @@
     },
     "dext-reviewer": {
       "model": "deepseek/deepseek-v4-flash",
-      "thinking": {"type": "enabled"},
+      "permission": {"edit": "deny"},
       "reasoning_effort": "high"
     }
   },
