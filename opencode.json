@@ -20,7 +20,7 @@
     "dext-reviewer": {
       "model": "deepseek/deepseek-v4-flash",
       "thinking": {"type": "enabled"},
-      "reasoning_effort": "high"
+      "reasoning_effort": "max"
     }
   },
   "mcp": {

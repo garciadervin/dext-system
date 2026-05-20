@@ -10,7 +10,7 @@ color: success
 
 ## Workflow
 
-1. **Load minimal context** (obsidian vault):
+1. **Load minimal context** (Obsidian vault):
    - Retrieve session note (`projects/<name>/session.md`).
    - Fetch relevant learnings (by tag or recency).
    - Read specs (`projects/<name>/specs/`) if present.
