@@ -24,7 +24,7 @@ Priority: **Critical** (blocks release), **High** (severe impact), **Medium** (m
 ## Workflow
 
 1. Confirm spec, source, and test files exist.
-2. Read `PRD.md` from Obsidian, all `src/`, all `tests/`.
+2. Read `PRD.md`, all `src/`, all `tests/`.
 3. Evaluate against all eight categories.
 4. Handoff report (English):
    - Status: APPROVE or REQUIRES_CHANGES.
